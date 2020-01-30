@@ -1,0 +1,83 @@
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+
+.top-header, .navigation, .feature, .footer, .jumbotron {
+	background: #F7F9F9;
+	color: #273746;
+}
+
+.jumbotron {	
+	padding: 0 0 4rem;
+	margin: 0;
+}
+
+.container-fluid {
+}
+
+/*Nav Bar*/
+.nav {
+	padding: 3rem 0 7rem;
+}
+
+.nav-item {
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	color: #273746;
+}
+
+.cover-img {
+	max-width: 25%;
+	height: auto;
+  	object-fit: cover;
+  	border-radius: 50%;	
+}
+
+.video-reel {
+	width: 900px;
+	padding: 3rem 0 7rem;
+}
+
+/*@media (max-width: 990px) {
+
+	.top-header {
+		text-align: center;
+	}
+
+	.title-image {
+		padding-left: 0;
+		position: static;
+		transform: rotate(0);
+	}
+}*/
+
+/*Features Section*/
+
+.features-section {
+	background: #fff;
+}
+
+/*Carousel Section*/
+
+.carousel-item {
+	padding: 1% 20%;
+}
+
+/* Footer */
+.social-icon {
+	padding: 2% 1%;
+}
+
+.copyright {
+	font-weight: bold;
+	color: #8f8f8f;
+}
