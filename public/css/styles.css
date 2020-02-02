@@ -80,6 +80,15 @@ h1, h2, h3, h4, h5, h6 {
 	width: 900px;
 }
 
+.storyboards, .thumbnails, .concepts, .loglines, .expressions {
+	padding: 2rem 0 2rem;
+}
+
+.card {
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
 .footer {
 	padding: 4rem 0 2rem;
 }

@@ -4,6 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
+const assets = require("./data/assets.json");
 
 const app = express();
 
@@ -30,7 +31,9 @@ app.get("/contact", function(req, res) {
 
 // Gallery
 app.get("/gallery", function(req, res) {
-	res.render('gallery', {});
+	// let concepts, expressions, loglines, storyboards, thumbnails;
+
+	res.render('gallery', {image_assets: assets});
 });
 
 // Where to listen

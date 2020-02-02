@@ -1,0 +1,72 @@
+{
+	"sb_dir": "storyboards",
+	"storyboards": [
+		"CordCarnes_Smores_00.jpg",
+		"CordCarnes_Smores_01.jpg",
+		"CordCarnes_Smores_03.jpg",
+		"CordCarnes_Smores_04.jpg",
+		"CordCarnes_Smores_05.jpg",
+		"CordCarnes_Smores_06.jpg",
+		"CordCarnes_Smores_07.jpg",
+		"CordCarnes_Smores_08.jpg",
+		"CordCarnes_Smores_09.jpg",
+		"CordCarnes_Smores_10.jpg",
+		"CordCarnes_Smores_11.jpg",
+		"CordCarnes_Smores_12.jpg",
+		"CordCarnes_Smores_13.jpg",
+		"CordCarnes_Smores_14.jpg",
+		"CordCarnes_Smores_15.jpg",
+		"CordCarnes_Smores_16.jpg",
+		"CordCarnes_Smores_17.jpg",
+		"CordCarnes_Smores_18.jpg",
+		"CordCarnes_Smores_19.jpg",
+		"CordCarnes_Smores_20.jpg",
+		"CordCarnes_Smores_21.jpg",
+		"CordCarnes_Smores_22.jpg",
+		"CordCarnes_Smores_23.jpg",
+		"CordCarnes_Smores_24.jpg",
+		"CordCarnes_Smores_25.jpg",
+		"CordCarnes_Smores_26.jpg",
+		"CordCarnes_Smores_27.jpg",
+		"CordCarnes_Smores_28.jpg",
+		"CordCarnes_Smores_29.jpg",
+		"CordCarnes_Smores_30.jpg",
+		"CordCarnes_Smores_31.jpg"
+	],
+
+	"tn_dir": "thumbnails",
+	"thumbnails": [
+		"Carnes_Shots_01-06.jpg",
+		"Carnes_Shots_07-12.jpg",
+		"Carnes_Shots_13-18.jpg",
+		"Carnes_Shots_19-20.jpg",
+		"thumbnails.jpg"
+	],
+
+	"ll_dir": "loglines",
+	"log_lines": [
+		"CordCarnes_3MinuteLoglines_01.jpg",
+		"CordCarnes_ClassicReboot_01.jpg"
+	],
+
+	"c_dir": "concepts",
+	"concepts": [
+		"08_Carnes_Cord.jpg",
+		"15_Carnes_Cord.jpg",
+		"16_Carnes_Cord.jpeg",
+		"18_Carnes_Cord.jpg",
+		"20_Carnes_Cord.jpeg",
+		"space_station_dark_corridor.jpg"
+	],
+
+	"e_dir": "expressions",
+	"expressions": [
+		"01_Carnes_Cord.jpg",
+		"02_Carnes_Cord.jpg",
+		"03_Carnes_Cord.jpg",
+		"04_Carnes_Cord.jpg",
+		"05_Carnes_Cord.jpg",
+		"07_Carnes_Cord.jpg",
+		"claire.jpg"
+	]
+}

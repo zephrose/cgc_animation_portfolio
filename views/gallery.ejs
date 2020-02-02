@@ -1,8 +1,6 @@
 <%- include("partials/header") -%>
 <%- include("partials/nav_gallery") -%>
 
-<h2 id="storyboard">Story Boards</h2>
-
 <h2 id="demo-reel">Demo Reels</h2>
 <section id="feature-video-reel">
 	<div class="video-reel-title">
@@ -23,10 +21,80 @@
 	</div>
 </section>
 
+<h2 id="storyboards">Story Boards</h2>
+<div class="container-fluid storyboards">
+	<div class="card-deck">
+		<div class="row justify-content-md-center">
+			<% image_assets.storyboards.forEach(function(frame) { %>
+			<div class="col-md-auto">
+				<div class="card border-0" style="">
+					<img src="img/storyboards/<%= frame %>" class="card-img" alt="...">
+				</div>
+			</div>
+			<% }); %>
+		</div>
+	</div>
+</div>
+
+<h2 id="loglines">Log Lines</h2>
+<div class="container-fluid loglines">
+	<div class="card-deck">
+		<div class="row justify-content-md-center">
+			<% image_assets.log_lines.forEach(function(logline) { %>
+			<div class="col-md-auto">
+				<div class="card border-0" style="">
+					<img src="img/loglines/<%= logline %>" class="card-img" alt="...">
+				</div>
+			</div>
+			<% }); %>
+		</div>
+	</div>
+</div>
+
+<h2 id="thumbnails">Thumbnails</h2>
+<div class="container-fluid thumbnails">
+	<div class="card-deck">
+		<div class="row justify-content-md-center">
+			<% image_assets.thumbnails.forEach(function(thumbnail) { %>
+			<div class="col-md-auto">
+				<div class="card border-0" style="">
+					<img src="img/thumbnails/<%= thumbnail %>" class="card-img" alt="...">
+				</div>
+			</div>
+			<% }); %>
+		</div>
+	</div>
+</div>
 
 <h2 id="concepts">Concepts</h2>
+<div class="container-fluid concepts">
+	<div class="card-deck">
+		<div class="row justify-content-md-center">
+			<% image_assets.concepts.forEach(function(concept) { %>
+			<div class="col-md-auto">
+				<div class="card border-0" style="">
+					<img src="img/concepts/<%= concept %>" class="card-img" alt="...">
+				</div>
+			</div>
+			<% }); %>
+		</div>
+	</div>
+</div>
 
 <h2 id="expressions">Expressions</h2>
+<div class="container-fluid expressions">
+	<div class="card-deck">
+		<div class="row justify-content-md-center">
+			<% image_assets.expressions.forEach(function(expression) { %>
+			<div class="col-md-auto">
+				<div class="card border-0" style="">
+					<img src="img/expressions/<%= expression %>" class="card-img" alt="...">
+				</div>
+			</div>
+			<% }); %>
+		</div>
+	</div>
+</div>
 
 
 
