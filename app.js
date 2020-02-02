@@ -9,7 +9,7 @@ const app = express();
 
 // Port
 let port = process.env.PORT;
-// if (port == null || port == "") { port = ; }
+if (port == null || port == "") { port = 3000; }
 
 app.set('view engine', 'ejs');
 
@@ -28,7 +28,7 @@ app.get("/contact", function(req, res) {
 	res.render('contact', {});
 });
 
-// Blog
+// Gallery
 app.get("/gallery", function(req, res) {
 	res.render('gallery', {});
 });

@@ -1,18 +1,33 @@
 <%- include("partials/header") -%>
+<%- include("partials/nav_gallery") -%>
 
-<h1>Home</h1>
+<h2 id="storyboard">Story Boards</h2>
 
-<a class="btn btn-primary" href="/compose" role="new_post">New Post?</a><br/><br/>
+<h2 id="demo-reel">Demo Reels</h2>
+<section id="feature-video-reel">
+	<div class="video-reel-title-salvage">
+		<p>Salvage - 3 Minute Demo Reel</p>	
+	</div>
+	<div class="container-fluid d-flex justify-content-center video-reel">
+		<div class="embed-responsive embed-responsive-16by9 reel">
+			<iframe src="https://www.youtube.com/embed/oWZma7Q68Qg" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="video-reel-title-smores">
+		<p>SMORES - 1 Minute Demo Reel</p>	
+	</div>
+	<div class="container-fluid d-flex justify-content-center video-reel">
+		<div class="embed-responsive embed-responsive-16by9 reel">
+			<iframe src="https://www.youtube.com/embed/khpS9A9aVrc" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+</section>
 
-<p> <%= homeCont %></p>
 
-<div>
-	<div class="posts">
-	<% posts.forEach(function(post) { %>	
-		<a href="/posts/<%= post.title %>"><h3 class="title"><%= post.title %></h3></a>
-		<p class="post text-truncate-overflow" ><%= post.body %></p>
-	<% }); %>
-	</div>		
-</div>
+<h2 id="concept">Concepts</h2>
+
+<h2 id="expression">Expressions</h2>
+
+
 
 <%- include("partials/footer") -%>
