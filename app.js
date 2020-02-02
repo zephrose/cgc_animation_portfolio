@@ -33,8 +33,8 @@ app.get("/gallery", function(req, res) {
 	res.render('gallery', {});
 });
 
-
 // Where to listen
 app.listen(port, function() {
   console.log("Server started on " + port);
 });
+

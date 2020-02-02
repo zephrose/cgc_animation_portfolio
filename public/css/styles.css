@@ -61,10 +61,21 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 1% 20%;
 }
 
-.video-reel-title, .video-reel-title-salvage, .video-reel-title-smores {	
-	padding: 5rem 0 1rem;
+.home-video-reel-title, .video-reel-title-salvage, .video-reel-title-smores {		
 	font-weight: 700;
 	text-align: center;
+}
+
+.home-video-reel-title {
+	padding: 5rem 0 1rem;
+}
+
+.video-reel-title {
+	padding: 2rem 0 2rem;
+}
+
+.video-reel {
+	padding: 0 0 2rem;
 }
 
 .reel {	
