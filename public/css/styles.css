@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {	
-	padding: 8rem 0 2rem;
+	padding: 4rem 0 2rem;
 }
 
 .cover-img {
@@ -61,17 +61,15 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 1% 20%;
 }
 
-.home-video-reel-title, .video-reel-title-salvage, .video-reel-title-smores {		
+.slide-title {		
 	font-weight: 700;
 	text-align: center;
 }
 
-.home-video-reel-title {
-	padding: 5rem 0 1rem;
-}
-
-.video-reel-title {
+.home-video-reel-title, .video-reel-title {
 	padding: 2rem 0 2rem;
+	font-weight: 700;
+	text-align: center;
 }
 
 .video-reel {
@@ -83,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-	padding: 10rem 0 2rem;
+	padding: 4rem 0 2rem;
 }
 
 /* Footer */
